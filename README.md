@@ -20,5 +20,7 @@ The data extracted and used for training the models and analysis can be obtained
 
 #  Energy consumption estimation model
 The objective of the first model is to estimate the energy consumption of raspberry PI. Since the voltage is constant in 5.15 V, we needed to estimate the electrical current. Through CPU and temperature data. The model can be seen in the following image and the algorithm for the training can be obtained here: LINK
-<img width="596" alt="lstm" src="https://user-images.githubusercontent.com/84810481/155583725-287699d1-6a31-4ce9-af04-23209b7e1631.png">
+
+<img width="598" alt="test" src="https://user-images.githubusercontent.com/84810481/155583888-23c20e22-c044-4c58-a808-f751ed5b5d40.png">
+
 
