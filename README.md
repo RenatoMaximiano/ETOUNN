@@ -10,4 +10,4 @@ The proposed method, called Analyzing Energy Consumption and Temperature of on-b
 </p>
 
 # Initial tests and configurations
-The first step is to configure the Raspberry PI to run the object detection algorithms. In our studies we used a Raspberry Pi 4 8Gb, in this case we recommend version 4.5.0 of OpenCv that can be installed through: [teste](https://github.com/RenatoMaximiano/ETOUNN/blob/main/OpenCV-4-5-0.sh)
+The first step is to configure the Raspberry PI to run the object detection algorithms. In our studies we used a Raspberry Pi 4 8Gb, in this case we recommend version 4.5.0 of OpenCv that can be installed through: [OpenCV-4-5-0](https://github.com/RenatoMaximiano/ETOUNN/blob/main/OpenCV-4-5-0.sh)
