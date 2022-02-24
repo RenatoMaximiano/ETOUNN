@@ -15,3 +15,5 @@ We use known, pre-trained algorithms from the YOLO family developed [1](https://
 
 # Data extraction for energy estimation model
 For data extraction, the following algorithms were developed [Data extraction - Rasp/YOLO](https://github.com/RenatoMaximiano/ETOUNN/blob/main/Data_extraction/Paralelo_Yolo.py) for YOLO and [Data extraction - Rasp/Mask](https://github.com/RenatoMaximiano/ETOUNN/blob/main/Data_extraction/Paralelo_Mask.py) for Mask R-CNN. These algorithms perform the task of extracting data from the Raspberry Pi at the same time as detecting objects.
+
+The data extracted and used for training the models and analysis can be obtained here:
