@@ -19,8 +19,15 @@ For data extraction, the following algorithms were developed [Data extraction - 
 The data extracted and used for training the models and analysis can be obtained here: [DATA](https://github.com/RenatoMaximiano/ETOUNN/tree/main/DATA)
 
 #  Energy consumption estimation model
-The objective of the first model is to estimate the energy consumption of raspberry PI. Since the voltage is constant in 5.15 V, we needed to estimate the electrical current. Through CPU and temperature data. The model can be seen in the following image and the algorithm for the training can be obtained here: LINK
+The objective of the first model is to estimate the energy consumption of raspberry PI. Since the voltage is constant in 5.15 V, we needed to estimate the electrical current. Through CPU and temperature data using a multilayer perceptron neural network (MLP). the Model can be seen in the following image and the algorithm for the training can be obtained here: [MLP_MODEL](https://github.com/RenatoMaximiano/ETOUNN/blob/main/Models/mlp_finalipynb.py)
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/84810481/155583888-23c20e22-c044-4c58-a808-f751ed5b5d40.png">
 </p>
 
+# Temperature prediction model
+The second model aims to predict the temperature of the Raspberry Pi processor. For this, a Long Short-Term Memory (LSTM) network was used. The model topology can be seen below and the training algorithm here:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/84810481/155585545-2d894252-54e5-48a7-80eb-adf8f76df02b.png">
+</p>
