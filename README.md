@@ -17,3 +17,8 @@ We use known, pre-trained algorithms from the YOLO family developed [1](https://
 For data extraction, the following algorithms were developed [Data extraction - Rasp/YOLO](https://github.com/RenatoMaximiano/ETOUNN/blob/main/Data_extraction/Paralelo_Yolo.py) for YOLO and [Data extraction - Rasp/Mask](https://github.com/RenatoMaximiano/ETOUNN/blob/main/Data_extraction/Paralelo_Mask.py) for Mask R-CNN. These algorithms perform the task of extracting data from the Raspberry Pi at the same time as detecting objects.
 
 The data extracted and used for training the models and analysis can be obtained here: [DATA](https://github.com/RenatoMaximiano/ETOUNN/tree/main/DATA)
+
+#  Energy consumption estimation model
+The objective of the first model is to estimate the energy consumption of raspberry PI. Since the voltage is constant in 5.15 V, we needed to estimate the electrical current. Through CPU and temperature data. The model can be seen in the following image and the algorithm for the training can be obtained here: LINK
+<img width="596" alt="lstm" src="https://user-images.githubusercontent.com/84810481/155583725-287699d1-6a31-4ce9-af04-23209b7e1631.png">
+
